@@ -1,0 +1,180 @@
+.admin_header {
+    background: url(../asset//Cart-Backgorund-Banner.png);
+    position: relative;
+}
+
+.white_leftbanner {
+    min-height: 100vh;
+    margin-right: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: #fff;
+    box-shadow: 18px 4px 54px 4px rgba(0, 0, 0, 0.25);
+}
+
+.insideText {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.white_leftbanner h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.801px;
+    padding-top: 20px;
+}
+
+.white_leftbanner h6 {
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 12px;
+    padding-bottom: 20px;
+}
+
+.admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin h1 {
+    padding-bottom: 20px;
+    padding-left: 6px;
+}
+
+.insideText div {
+    display: flex;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.insideText p {
+    padding-bottom: 0px;
+    padding-left: 8px;
+}
+
+
+.data, .contact {
+    position: absolute;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 220px 480px;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    padding: 50px 40px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inter;
+    border-radius: 20px;
+}
+
+.product, .Bill{
+    position: absolute;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 500px;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    padding: 50px 40px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inter;
+    border-radius: 20px;
+}
+
+.data p{
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Bill p{
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+#customers tr:hover {
+    background-color: #f0f0f0;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4e4e4e;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+}
+
+.pagination svg {
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px; 
+}
+
+.pagination svg.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#customers img{
+    width: 100px;
+}
+
+.newTable{
+    padding: 20px 0px;
+}
+
+#customers .heading{
+    width: 200px;
+    font-family: inter;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 5px;
+}

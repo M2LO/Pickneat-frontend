@@ -1,0 +1,40 @@
+.AboutUs{
+    background: url(../asset/Important-Page-banner.png);
+    height: 1080px;
+    object-fit: cover;
+    text-transform: capitalize;
+}
+
+.AboutUs h1{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 4px 8px 20px rgba(0, 0, 0, 0.25);
+    font-family: against;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 14.4px;
+    padding-top: 100px;
+    
+}
+
+.aboutustxt p {
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Abel;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 100px;
+    margin-top: 10px;
+    text-align: start;
+    
+}
+
+.aboutustxt{
+    margin-top: 40px;
+    padding: 0 200px;
+}

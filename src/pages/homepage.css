@@ -1,0 +1,209 @@
+.MainProduct{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+.MainProduct img{
+    width: 400px;
+}
+.product1 {
+    background: url(./../asset/HomePage-Product-Lemon-Banner.png);
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+.product2 {
+    background: url(./../asset/HomePage-Product-Garlic-Banner.png);
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+.product3 {
+    background: url(./../asset/HomePage-Product-Chili-Banner.png);
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.productimg{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productimg img{
+    filter: drop-shadow(16px 10px 10px rgba(0, 0, 0, 0.25));
+}
+.MainProduct button{
+    font-family: inter;
+    padding: 10px 20px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+    background: white;
+}
+
+.title{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 240px;
+    left: 307px;
+}
+.titletext{    
+    font-size: 65px;
+    letter-spacing: 1.2em;
+    font-family: against;
+    color: #fff;
+    text-shadow: 4px 8px 20px rgba(0, 0, 0, 0.25);
+}
+.homeimportant{
+    background: url(./../asset//Important-Page-banner.png);
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 30% 40% 30%;
+}
+.importanttitle
+{   margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-shadow: 4px 8px 20px rgba(0, 0, 0, 0.25);
+    font-family: against;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 14.4px;
+}
+.homeimportant p{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: abel;
+    font-size: 27px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0 200px;
+    text-align: center;
+}
+.importantdes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+.importantbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.importantbutton button{
+    font-family: inter;
+    padding: 10px 20px;
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+    background: white;
+}
+.contactformbanner{
+    background: url(./../asset/ContactFormBanner.png);
+}
+.contactform input{
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: inter;
+    border-radius: 40px;
+    background: #000;
+    padding-right: 360px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    color: #FFF;
+}
+
+.contactform textarea{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: inter;
+    margin: 10px 0;
+    padding-right: 534px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 40px;
+    background: #000;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+
+.contactform button{
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: inter;
+    border-radius: 40px;
+    background: #000;
+    color: #FFF;
+    padding: 10px 40px;
+    margin-bottom: 40px;
+}
+
+.contactformbanner h1{
+    margin: 40px 0;
+    color: #000;
+    text-align: center;
+    font-family: Slagless;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+}
+
+.footerinfo{
+    height: 300px;
+    background: #1C1C1C;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.footertxt1{
+    color: #FFF;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 0 590px;
+    margin-top: 30px;
+}
+
+.footertxt2{
+    color: #FFF;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 80px;
+}

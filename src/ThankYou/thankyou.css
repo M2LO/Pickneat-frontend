@@ -1,0 +1,50 @@
+.order-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    font-family: inter;
+    text-transform: capitalize;
+    background: url(../asset//Cart-Backgorund-Banner.png);
+    transition: ease-in-out;
+}
+
+.tq{
+    font-weight: 800;
+    background-color: #f8f8f8;
+    padding: 22px 220px;
+    border-radius: 50px;
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.order-main button{
+    padding: 8px 30px;
+    font-size: 14px;
+    font-family: inter;
+    background: white;
+    color: black;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.innn{
+    padding: 0px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icons{
+    cursor: pointer;
+    margin-block-start: 5px;
+}
+
+.icons a {
+    text-decoration: none;
+}

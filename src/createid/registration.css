@@ -1,0 +1,87 @@
+.regitser{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: -3px;
+}
+
+.rightsideregister{
+    display: grid;
+    grid-template-rows:30% 70%;
+}
+.registertxt{
+    margin-top: 260px;
+}
+.registerform{
+    padding: 0 140px;
+}
+
+.registerform .userpassregister{
+    border: 2px solid black;
+    background-color: black;
+    margin: 26px 0;
+    padding: 14px 0;
+    border-radius: 50px;
+}
+.registerform .userpassregister input{
+    background: black;
+    border: none;
+    color: white;
+    text-align: start;
+    font-size: 18px;
+    outline: none;
+}
+.userpassregister{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.userresgistertxt{
+    color: #000;
+    text-align: center;
+    font-family: against;
+    font-size: 39.789px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.registerremember {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.registerremember h2{
+    color: #000;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 19.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 6px;
+}
+
+.registerbutton input{
+    background: black;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 50px;
+    font-family: ABeeZee;
+    font-size: 16px;
+}
+.radiobtn input[type=checkbox] {
+    accent-color: black;
+}
+
+.loginpagetxt{
+    margin-top: 10px;
+}
+
+.loginpagetxt a{
+    font-family: ABeeZee;
+    font-size: 16px;
+    color: black;   
+}

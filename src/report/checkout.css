@@ -1,0 +1,76 @@
+.container {
+
+    background-image: url(../asset/Cart-Backgorund-Banner.png);
+    font-family: inter;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.opacity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background-color: #89949941;
+}
+
+.container form {
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.container form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col {
+    flex: 1 1 250px;
+}
+
+.container form .row .col .inputBox {
+    margin: 15px 0;
+}
+
+.container form .row .col .inputBox span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.container form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .row .col .flex .inputBox {
+    margin-top: 5px;
+    
+}
+
+.container form .row .col .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+}
+
+.container form .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #333;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.container form .submit-btn:hover {
+    background: #202020;
+}
